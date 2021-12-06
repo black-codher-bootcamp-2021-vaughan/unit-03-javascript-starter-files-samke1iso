@@ -1,4 +1,4 @@
-TASK 1
+// TASK 1
 function getGrade (total) { 
     if (total > 90) {
         console.log('You got an A+');
@@ -40,7 +40,7 @@ console.log(getGrade(67));
 console.log(getGrade(53));
 
 
-TASK 2 
+// TASK 2 
 
 function getGrade (total) {
     switch (true) {
@@ -60,8 +60,7 @@ function getGrade (total) {
         console.log('You got a C');
         break;
     
-
-         case total > 50 && total <= 60:
+        case total > 50 && total <= 60:
         console.log('You got a D');
         break;
 
@@ -83,6 +82,9 @@ function getGrade (total) {
 
 console.log(getGrade(47));
 console.log(getGrade(58));
+
+
+// console.log instead of return gives undefined in the console 
 
 
 
