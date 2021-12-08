@@ -12,7 +12,7 @@ while (count < 10) {
     count++;
 };
 
-console.log(randomNumber);
+// console.log(randomNumber); (redudant line because of DRY)
 
 
 
@@ -25,11 +25,18 @@ console.log(randomNumber);
 
 // ****************************************************TASK 2****************************************************
 
+// Rewrite the WHILE loop from the previous task as a FOR loop
 
 
 
 
+let count = 0
+const randomNumber = Math.round(Math.random() * 10);
 
+for (let count = 0; count <= 10; count++) {
+    const randomNumber = Math.round(Math.random() * 10);
+    console.log(randomNumber);
+};
 
 
 
